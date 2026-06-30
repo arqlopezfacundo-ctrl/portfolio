@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facundo López - Dossier Técnico de Proyectos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;700;900&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#fcfbf9] text-neutral-900 antialiased selection:bg-neutral-200">
+
+  <!-- ENCABEZADO PRINCIPAL -->
+  <header class="max-w-6xl mx-auto px-6 pt-12 pb-6 border-b border-neutral-200">
+    <div class="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+      <div>
+        <span class="text-xs uppercase tracking-[3px] font-bold text-neutral-500">Dossier Técnico de Obras e Interiorismo</span>
+        <h1 class="text-4xl font-black tracking-tight text-neutral-900 uppercase mt-1">Facundo López</h1>
+        <p class="text-sm text-neutral-600 mt-2 font-medium">Proyectos Co-Fundados y Coordinados Técnicamente (Studio V)</p>
+      </div>
+      <div class="text-left md:text-right text-xs text-neutral-500 space-y-1">
+        <p class="font-bold text-neutral-800">Contacto Directo:</p>
+        <p>arq.lopezfacundo@gmail.com · +34 647 535 738</p>
+        <p>Valencia, España</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENEDOR DE PROYECTOS -->
+  <main class="max-w-6xl mx-auto px-6 py-12 space-y-24">
+
+    <!-- PROYECTO 1: CASA CIA (INTEGRADO EN SUSTITUCIÓN DE BATAGLIA) -->
+    <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div class="lg:col-span-5 space-y-4">
+        <span class="text-xs font-bold uppercase tracking-widest text-neutral-400">01 / Residencial de Alta Gama</span>
+        <h2 class="text-3xl font-black uppercase tracking-tight text-neutral-900">Casa CIA</h2>
+        
+        <!-- Ficha Técnica Blindada para ATS -->
+        <div class="bg-[#f5f2ed] rounded-xl p-4 border border-neutral-200 text-xs space-y-2 text-neutral-700">
+          <p><strong>Ubicación original:</strong> Resistencia, Chaco</p>
+          <p><strong>Superficie total:</strong> 589 m²</p>
+          <p><strong>Área de gestión técnica:</strong> Coordinación de estructura de hormigón armado, despieces de encofrados vistos, dirección técnica de industriales metalúrgicos e interiorismo ejecutivo.</p>
+          <p><strong>Software integrado:</strong> AutoCAD · SketchUp · Revit Architecture · Integración de planos de estructura y MEP en entorno BIM.</p>
+        </div>
+
+        <p class="text-sm leading-relaxed text-neutral-600">
+          Proyecto residencial unifamiliar concebido mediante la articulación de dos volúmenes autónomos vinculados por un vacío central que actúa como regulador lumínico y térmico. El desafío técnico principal consistió en la resolución ejecutiva de una estructura de hormigón armado vista diseñada para salvar grandes luces y generar voladizos limpios. 
+        </p>
+        <p class="text-sm leading-relaxed text-neutral-600">
+          La comunicación vertical se solucionó mediante una escalera exenta de estructura metálica e industriales de cerrajería a medida, combinada con huellas de hormigón. El interiorismo técnico se integró de forma nativa en la fase húmeda de la obra, ejecutando detalles como el lavabo del baño principal moldeado e integrado in situ en el propio tabique de hormigón visto, garantizando un acabado minimalista y de alta precisión.
+        </p>
+      </div>
+
+      <!-- CUADRÍCULA DE IMÁGENES REALES DE OBRA -->
+      <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <!-- Foto 1: Volúmenes de Hormigón Vito Exterior -->
+        <div class="aspect-[3/4] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200 shadow-sm sm:row-span-2">
+          <img src="WhatsApp Image 2026-05-12 at 10.38.10 (2).jpeg" alt="Tectónica y encuentro de volúmenes de hormigón visto" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        
+        <!-- Foto 2: Acceso y Encofrado Tablonado de Techo -->
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200 shadow-sm">
+          <img src="WhatsApp Image 2026-05-12 at 10.38.09.jpeg" alt="Detalle de encofrado tablonado e ingreso técnico" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+
+        <!-- Foto 3: Escalera Exenta Volada y Cerrajería -->
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200 shadow-sm">
+          <img src="WhatsApp Image 2026-05-12 at 10.42.44 (20).jpeg" alt="Coordinación de industriales: Escalera exenta volada" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+
+        <!-- Foto 4: Detalle de Lamas Metálicas y Control Solar -->
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200 shadow-sm">
+          <img src="axonometrica.jpeg" alt="Filtro de control solar y lamas verticales de acero" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+
+        <!-- Foto 5: Lavabo Integrado In Situ en Baño -->
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200 shadow-sm">
+          <img src="contrafrente.jpeg" alt="Interiorismo constructivo: Lavabo integrado in situ en hormigón" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+
+        <!-- Fila de Planimetría del Dossier -->
+        <div class="sm:col-span-2 aspect-[16/9] bg-neutral-100 rounded-2xl overflow-hidden border border-neutral-200 flex items-center justify-center p-2 shadow-inner">
+          <img src="planta baja revir.jpeg" alt="axonometrica.jpeg" class="w-full h-full object-contain opacity-90 mix-blend-multiply" />
+        </div>
+      </div>
+    </article>
+
+    <!-- PROYECTO 2: CLINICA IMO -->
+    <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div class="lg:col-span-5 space-y-4 lg:order-last">
+        <span class="text-xs font-bold uppercase tracking-widest text-neutral-400">02 / Equipamiento Comercial</span>
+        <h2 class="text-3xl font-black uppercase tracking-tight text-neutral-900">Clínica IMO</h2>
+        
+        <div class="bg-[#f5f2ed] rounded-xl p-4 border border-neutral-200 text-xs space-y-2 text-neutral-700">
+          <p><strong>Tipo de obra:</strong> Reforma integral, adecuación técnica y cambio de uso </p>
+          <p><strong>Superficie total:</strong> 289,5 m²</p>
+          <p><strong>Año de terminación:</strong> 2021</p>
+          <p><strong>Área de gestión:</strong> Coordinación de demoliciones estructurales, cálculo de subestructuras metálicas livianas y control económico de industriales.</p>
+        </div>
+
+        <p class="text-sm leading-relaxed text-neutral-600">
+          Transformación de una edificación residencial consolidada de la década de 1950 en un Instituto de Microcirugía Ocular de alta tecnología. Se mantuvo la huella estructural en planta baja mediante refuerzos de muros portantes y aperturas controladas, añadiendo una planta superior mediante estructura liviana de acero. Destaca la ejecución de una doble piel de fachada resuelta en chapa perforada sobre montantes tubulares de acero, generando una cámara técnica que actúa como control lumínico e hito de marca corporativa.
+        </p>
+      </div>
+      <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="FachadaNocturna.jpeg" alt="FachadaNocturna.jpeg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="InteriorismoSaladeEspera.jpeg" alt="InteriorismoSaladeEspera.jpeg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="sm:col-span-2 aspect-[16/9] bg-neutral-100 rounded-2xl overflow-hidden border border-neutral-200 flex items-center justify-center p-4">
+          <span class="text-xs uppercase tracking-wider font-semibold text-neutral-400"><img src="plantaimo.jpeg" alt="plantaimo.jpeg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" /></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- PROYECTO 3: CASA FB -->
+    <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div class="lg:col-span-5 space-y-4">
+        <span class="text-xs font-bold uppercase tracking-widest text-neutral-400">03 / Domótica e Interiorismo</span>
+        <h2 class="text-3xl font-black uppercase tracking-tight text-neutral-900">Casa FB</h2>
+        
+        <div class="bg-[#f5f2ed] rounded-xl p-4 border border-neutral-200 text-xs space-y-2 text-neutral-700">
+          <p><strong>Tipo de obra:</strong> Vivienda Unifamiliar Inteligente</p>
+          <p><strong>Superficie total:</strong> 381,5 m²</p>
+          <p><strong>Área de gestión:</strong> Diseño de interiorismo de detalle, integración de redes domóticas centralizadas y supervisión de acabados.</p>
+        </div>
+
+        <p class="text-sm leading-relaxed text-neutral-600">
+          Proyecto residencial de alta gama diseñado bajo premisas de automatización integral. El control de obra se centró en la coordinación multidisciplinar entre el instalador tecnológico y las fases de albañilería tradicional, integrando sistemas de iluminación regulada, climatización zonificada, seguridad y audio multiroom empotrado. En el interiorismo técnico del baño principal se desarrolló un espejo inteligente empotrado con foseado de iluminación LED perimetral, integrando el panel operativo sin romper la limpieza constructiva del revestimiento porcelánico.
+        </p>
+      </div>
+      <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="comedordomoticacasafb.jpeg" alt="Interior Salón Domótico" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="Cocinadomoticacasafb.jpeg" alt="Integración Cocina" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+  
+     <!-- Fila de Planimetría del PROYECTO 3: CASA FB -->
+        <div class="sm:col-span-2 aspect-[16/9] bg-neutral-100 rounded-2xl overflow-hidden border border-neutral-200 flex items-center justify-center p-2 shadow-inner">
+          <img src="pastiocasafb.jpeg" alt="pastiocasafb.jpeg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+      </div>
+    </article>
+
+    <!-- PROYECTO 4: REFORMA INTEGRAL DEPARTAMENTO SANTA FE -->
+    <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div class="lg:col-span-5 space-y-4 lg:order-last">
+        <span class="text-xs font-bold uppercase tracking-widest text-neutral-400">04 / Interiorismo y Reforma Residencial</span>
+        <h2 class="text-3xl font-black uppercase tracking-tight text-neutral-900">Dpto. Santa Fe</h2>
+        
+        <div class="bg-[#f5f2ed] rounded-xl p-4 border border-neutral-200 text-xs space-y-2 text-neutral-700">
+          <p><strong>Tipo de obra:</strong> Reforma integral en vivienda colectiva (Bloque)</p>
+          <p><strong>Superficie total:</strong> 109 m²</p>
+          <p><strong>Área de gestión:</strong> Distribución de espacios, planos de despiece de cerramientos metálicos y carpinterías de madera, control de acabados.</p>
+        </div>
+
+        <p class="text-sm leading-relaxed text-neutral-600">
+          Intervención integral sobre un piso residencial para optimizar la fluidez espacial y el ingreso de luz natural. El núcleo del proyecto consistió en la sustitución de tabiquerías divisorias opacas por cerramientos de herrería y vidrio a medida en cuadrículas, permitiendo independizar la zona de cocina e isla central sin perder amplitud visual. Se desarrollaron planos ejecutivos minuciosos para el mobiliario empotrado de madera lacada y la zona técnica de lavandería oculta, optimizando cada metro útil.
+        </p>
+      </div>
+      <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="cocinacasasantafe.jpeg" alt="Cerramiento de Vidrio" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="lavaderocasasantafe.jpeg" alt="Mobiliario Lavandería" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="sm:col-span-2 aspect-[16/9] bg-neutral-100 rounded-2xl overflow-hidden border border-neutral-200 flex items-center justify-center p-4">
+          <span class="text-xs uppercase tracking-wider font-semibold text-neutral-400"><img src="planoscsaasantafe.jpeg" alt="plantaimo.jpeg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" /></span>
+        </div>
+      </div>
+    </article>
+
+    <!-- PROYECTO 5: REFORMAS COMERCIALES (ORGÁNICAMENTE & RÍO MAR) -->
+    <article class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div class="lg:col-span-5 space-y-4">
+        <span class="text-xs font-bold uppercase tracking-widest text-neutral-400">05 / Retail & Locales Comerciales</span>
+        <h2 class="text-3xl font-black uppercase tracking-tight text-neutral-900">Proyectos Retail</h2>
+        
+        <div class="bg-[#f5f2ed] rounded-xl p-4 border border-neutral-200 text-xs space-y-2 text-neutral-700">
+          <p><strong>Proyectos:</strong> Orgánicamente (323 m²) · Pescadería Río Mar (32 m²)</p>
+          <p><strong>Área de gestión:</strong> Diseño de interiores comercial, control de instalaciones específicas de frío y revestimientos cerámicos esmaltados.</p>
+        </div>
+
+        <p class="text-sm leading-relaxed text-neutral-600">
+          Dos intervenciones comerciales llave en mano enfocadas en el diseño estratégico y la experiencia del usuario. En <em>Orgánicamente</em> se planificó un recorrido comercial claro desde los accesos, utilizando cerámica esmaltada verde dispuesta verticalmente para zonificar las áreas de alimentación saludable (productos sin gluten, veganos y frescos). En <em>Río Mar</em>, una reforma integral de escala reducida, se optimizó el espacio de cámaras de congelados revistiendo los paramentos en azul profundo e integrando de forma limpia el extintor normativo contra incendios dentro de la temática constructiva del local.
+        </p>
+      </div>
+      <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="organicamente.jpeg" alt="Interior Retail Orgánicamente" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="organicamenteinterior.jpeg" alt="organicamenteinterior.jpeg" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200 shadow-sm">
+          <img src="Riomar.jpeg" alt="Interior Retail Orgánicamente" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+        <div class="aspect-[4/3] bg-neutral-200 rounded-2xl overflow-hidden border border-neutral-200">
+          <img src="Riomarinterior.jpeg" alt="Interior Pescadería Río Mar" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500" />
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="bg-[#f5f2ed] border-t border-neutral-200 mt-24 py-8 text-center text-xs text-neutral-500">
+    <p>© 2026 Facundo López · Dossier de Obras e Interiorismo Comercial y Residencial</p>
+  </footer>
+
+</body>
+</html>
